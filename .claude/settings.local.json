@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-pnpm --turbopack)"
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-pnpm --turbopack)",
+      "Bash(pnpm add:*)",
+      "Bash(npx next:*)",
+      "Bash(npx skills:*)",
+      "WebSearch",
+      "WebFetch(domain:docs.meshy.ai)",
+      "WebFetch(domain:help.meshy.ai)"
     ]
   }
 }
